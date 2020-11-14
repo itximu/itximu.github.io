@@ -104,14 +104,6 @@ table {
     table td:hover {
       background-color: rgba(34, 187, 255, 0.1); }
 
-@font-face {
-  font-family: BenderLight;
-  src: local("Bender"), url("/font/BenderLight.ttf"); }
-
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: local("JetBrains Mono"), url("/font/JetBrainsMono-Regular.woff2") format("woff2"); }
-
 .text-title, .text-content {
   height: 18px;
   line-height: 18px;
@@ -218,6 +210,11 @@ table {
   color: #fff;
   background-color: #494949; }
 
+.mermaid {
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center; }
+
 header {
   position: sticky;
   top: 0;
@@ -268,6 +265,8 @@ article {
   min-width: 1px;
   max-height: 100%;
   overflow-y: auto; }
+  article #post-content p, article .recent-excerpt p {
+    line-height: 150%; }
 
 .recent-post {
   color: #898989;
@@ -790,7 +789,9 @@ aside {
     aside a img {
       transition: background-color 1s; }
       aside a img:hover {
-        background-color: rgba(255, 255, 255, 0.1); } }
+        background-color: rgba(255, 255, 255, 0.1); }
+  #archive-aside {
+    max-width: 36%; } }
 
 @media (min-width: 992px) {
   body {
