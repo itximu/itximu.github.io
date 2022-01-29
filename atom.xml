@@ -18,8 +18,8 @@
   
   <entry>
     <title>兽萌温泉旅馆 V1.21 官方中文版</title>
-    <link href="http://example.com/2022/01/29/cv1/"/>
-    <id>http://example.com/2022/01/29/cv1/</id>
+    <link href="http://example.com/cv1/"/>
+    <id>http://example.com/cv1/</id>
     <published>2022-01-29T03:14:16.000Z</published>
     <updated>2022-01-29T03:34:22.763Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/01/28/hello-world/"/>
-    <id>http://example.com/2022/01/28/hello-world/</id>
+    <link href="http://example.com/hello-world/"/>
+    <id>http://example.com/hello-world/</id>
     <published>2022-01-27T16:30:39.419Z</published>
     <updated>2022-01-27T16:30:39.419Z</updated>
     
